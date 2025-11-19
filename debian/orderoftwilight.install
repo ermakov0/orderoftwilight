@@ -1,0 +1,3 @@
+debian/scripts/orderoftwilight usr/games
+debian/orderoftwilight.desktop usr/share/applications
+debian/orderoftwilight.love usr/share/games/orderoftwilight
