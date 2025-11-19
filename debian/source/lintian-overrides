@@ -1,3 +1,1 @@
-# Upstream does not provide signed tarballs
-orderoftwilight source: debian-watch-does-not-check-openpgp-signature
 orderoftwilight source: maintainer-desktop-entry [debian/orderoftwilight.desktop]
