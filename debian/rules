@@ -4,6 +4,7 @@
 	dh $@
 
 override_dh_auto_build:
+	convert graphics/icon.png debian/orderoftwilight.xpm
 	mkdir -p debian/orderoftwilight
 	cp -a *.lua graphics maps sounds debian/orderoftwilight/
 	find debian/orderoftwilight -type f -exec chmod 0644 {} \;

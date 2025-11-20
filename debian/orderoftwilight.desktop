@@ -2,7 +2,7 @@
 Name=Order of Twilight
 Comment=Puzzle platformer with muscle memory
 Exec=orderoftwilight
-Icon=love-app
+Icon=orderoftwilight
 Terminal=false
 Type=Application
 Categories=Game;ArcadeGame;

@@ -3,13 +3,14 @@ Section: games
 Priority: optional
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Uploaders: Ermakov Alexander <ermakovav@altgtu.ru>
-Standards-Version: 4.7.2
-Build-Depends:
- debhelper-compat (= 13),
- zip,
 Homepage: https://github.com/Stabyourself/orderoftwilight
 Vcs-Git: https://github.com/ermakov0/orderoftwilight.git
 Vcs-Browser: https://github.com/ermakov0/orderoftwilight
+Standards-Version: 4.7.2
+Build-Depends:
+ debhelper-compat (= 13),
+ imagemagick,
+ zip,
 
 Package: orderoftwilight
 Architecture: all
