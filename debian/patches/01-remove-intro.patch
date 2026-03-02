@@ -1,0 +1,35 @@
+Description: Remove intro from game
+Author: Ermakov Alexander <ermakovav@altgtu.ru>
+Forwarded: not-needed
+Last-Update: 2026-03-02
+
+--- orderoftwilight-1.1.orig/main.lua
++++ orderoftwilight-1.1/main.lua
+@@ -25,7 +25,6 @@ function love.load()
+ 	require "failbox"
+ 	require "shockwave"
+ 	require "page"
+-	require "intro"
+ 
+ 	gamefinished = true
+ 
+@@ -121,10 +120,6 @@ function love.load()
+ 		magicquad[i] = love.graphics.newQuad((i-1)*10, 0, 10, 10, 50, 10)
+ 	end
+ 
+-	logo = love.graphics.newImage("graphics/logo.png")
+-	logoblood = love.graphics.newImage("graphics/logoblood.png")
+-	stabsound = love.audio.newSource("sounds/stab.ogg", "static")
+-
+ 	backgrounds = 4
+ 
+ 	width = 40
+@@ -226,7 +221,7 @@ function love.load()
+ 	tiledb[48] = {1,1,0,1,1,1,0,1}
+ 
+ 	spelldiscovered = {}
+-	changegamestate("intro")
++	changegamestate("menu")
+ end
+ 
+ function love.update(dt)

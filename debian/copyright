@@ -2,13 +2,18 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Order of Twilight
 Upstream-Contact: Maurice Guégan <maurice@guegan.de>
 Source: https://github.com/Stabyourself/orderoftwilight
+Files-Excluded:
+ intro.lua
+ graphics/logo.png
+ graphics/logoblood.png
+ sounds/stab.ogg
 
 Files: *
 Copyright: 2012-2018 Maurice Guégan <maurice@guegan.de>
 License: MIT
 
 Files: debian/*
-Copyright: 2025 Ermakov Alexander <ermakovav@altgtu.ru> 
+Copyright: 2026 Ermakov Alexander <ermakovav@altgtu.ru> 
 License: MIT
 
 License: MIT
