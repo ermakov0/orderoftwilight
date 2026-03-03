@@ -4,3 +4,4 @@ Template: Github
 Owner: Stabyourself
 Project: orderoftwilight
 Repack-Suffix: +ds
+Dversion-Mangle: auto
