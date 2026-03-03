@@ -1,5 +1,5 @@
-orderoftwilight (1.1+ds-1) UNRELEASED; urgency=medium
+orderoftwilight (1.1+ds-1) unstable; urgency=medium
 
   * Initial release (Closes: #1120977)
 
- -- Ermakov Alexander <ermakovav@altgtu.ru>  Mon, 02 Mar 2026 09:15:35 +0700
+ -- Ermakov Alexander <ermakovav@altgtu.ru>  Tue, 03 Mar 2026 08:26:17 +0700
