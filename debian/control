@@ -4,7 +4,7 @@ Section: games
 Build-Depends:
  debhelper-compat (= 13),
  zip,
-Standards-Version: 4.7.3
+Standards-Version: 4.7.4
 Homepage: https://github.com/Stabyourself/orderoftwilight
 Vcs-Git: https://github.com/ermakov0/orderoftwilight.git
 Vcs-Browser: https://github.com/ermakov0/orderoftwilight
